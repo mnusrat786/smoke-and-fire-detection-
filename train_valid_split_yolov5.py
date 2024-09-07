@@ -31,6 +31,7 @@ try:
 except:
     pass
 j = 0
+# for loop
 for i in maindir:
     OriginalName = os.path.splitext(i)[0]
     print(OriginalName)
