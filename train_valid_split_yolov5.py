@@ -1,7 +1,7 @@
 import os
 import shutil
 maindir = os.listdir('Smoke_Train_data/')
-#directory
+#directory means
 try:
     os.mkdir('coco/')
 except:
