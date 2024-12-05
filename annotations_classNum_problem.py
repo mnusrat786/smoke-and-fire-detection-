@@ -1,4 +1,3 @@
-
 import os
 
 arr = os.listdir("ress/")
