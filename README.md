@@ -1,11 +1,11 @@
-# 🔥 Smoke and Fire Detection - YOLOv5
+#  Smoke and Fire Detection - YOLOv5
 A **YOLOv5-based Smoke and Fire Detection** model trained on a custom dataset. This model detects smoke and fire in images and videos for early warning and prevention.
 
 ---
 
-## 📌 Setup Instructions
+## Setup Instructions
 
-### 🔹 Step 1: Clone the Repository and Install Dependencies
+### Step 1: Clone the Repository and Install Dependencies
 First, download the repository and install the required dependencies:
 ```bash
 git clone https://github.com/mnusrat786/smoke-and-fire-detection.git
@@ -13,7 +13,7 @@ cd smoke-and-fire-detection
 pip install -r requirements.txt
 ```
 
-### 🔹 Step 2: Install YOLOv5
+### Step 2: Install YOLOv5
 We use **Ultralytics' YOLOv5**. Clone and install it:
 ```bash
 git clone https://github.com/ultralytics/yolov5
@@ -24,9 +24,9 @@ cd ..
 
 ---
 
-## 📌 Dataset Structure
+## Dataset Structure
 
-### 🔹 Step 1: Dataset Organization
+### Step 1: Dataset Organization
 Your dataset is stored in `data/` and follows this structure:
 ```bash
 data/
@@ -47,7 +47,7 @@ Ensure your dataset has:
 
 ---
 
-## 📌 Splitting the Dataset
+## Splitting the Dataset
 
 ### 🔹 Step 1: Run the Dataset Split Script
 To split the dataset into training and validation sets, use the provided script:
@@ -58,7 +58,7 @@ This will automatically organize images and annotations into `train/` and `val/`
 
 ---
 
-## 📌 Training the YOLOv5 Model and Running Inference
+##  Training the YOLOv5 Model and Running Inference
 
 ### 🔹 Step 1: Train the YOLOv5 Model
 To train YOLOv5 on your dataset, run:
@@ -86,7 +86,7 @@ python yolov5/detect.py --weights yolov5/runs/train/exp/weights/best.pt --source
 
 ---
 
-## 📌 Model Results and Trained Weights
+##  Model Results and Trained Weights
 
 After training, your results and weights will be stored in:
 ```bash
@@ -103,7 +103,7 @@ yolov5/runs/train/exp/weights/best.pt
 
 ---
 
-## 📌 Contributors & Issues
+## Contributors & Issues
 
 ### 🔹 Contribute to the Project
 If you want to improve the project, feel free to fork the repository and submit a pull request.
@@ -113,7 +113,7 @@ If you find any issues, please **open a GitHub issue** describing the problem.
 
 ---
 
-## 📌 References
+## References
 
 ### 🔹 External Resources
 - [YOLOv5 Official Repository](https://github.com/ultralytics/yolov5)  
